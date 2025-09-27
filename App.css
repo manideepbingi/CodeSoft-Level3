@@ -1,0 +1,100 @@
+
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+  min-height: 100vh;
+  margin: 0;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+h1, h2 {
+  color: #fff;
+  margin-bottom: 0.5em;
+  text-align: center;
+  text-shadow: 1px 1px 8px #2193b0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  background: rgba(33,147,176,0.7);
+  transition: background 0.2s, color 0.2s;
+}
+nav a:hover {
+  background: #fff;
+  color: #2193b0;
+  text-decoration: none;
+}
+
+.job-listing {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(33,147,176,0.15);
+  padding: 2em;
+  margin: 2em auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.job-listing ul {
+  padding: 0;
+}
+.job-listing li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1em 0;
+  font-size: 1.1em;
+}
+.job-listing li:last-child {
+  border-bottom: none;
+}
+
+.job-details {
+  background: #fffbe6;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(255,193,7,0.15);
+  padding: 2.5em;
+  margin: 2em auto;
+  max-width: 650px;
+  text-align: center;
+  border: 2px solid #ffd600;
+}
+.job-details h2 {
+  color: #ff9800;
+  text-shadow: 1px 1px 8px #ffd600;
+}
+.job-details p {
+  font-size: 1.15em;
+  margin: 0.5em 0;
+}
+
+.loading {
+  text-align: center;
+  color: #fff;
+  margin-top: 2em;
+  font-size: 1.2em;
+}
